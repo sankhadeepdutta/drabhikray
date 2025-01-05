@@ -141,14 +141,14 @@ export default function FrontPage() {
             <Contact
               src="roshan.jpg"
               name="Roshan Mondal"
-              contact="+918927815745"
+              contact="+91-8927815745"
             />
           </Col>
           <Col className="d-flex justify-content-center">
             <Contact
               src="somnath.jpeg"
               name="Somnath Ghosh"
-              contact="+918927815745"
+              contact="+91-8927815745"
             />
           </Col>
         </Row>
