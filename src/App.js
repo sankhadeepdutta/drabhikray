@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import FrontPage from "./components/FrontPage";
 import AboutPage from "./components/AboutPage";
@@ -9,12 +9,13 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path="home" element={<FrontPage />}></Route>
-          <Route path="about" element={<AboutPage />}></Route>
+          <Route path="/" element={<FrontPage />} />
+          <Route path="home" element={<FrontPage />} />
+          <Route path="about" element={<AboutPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </>
   );
