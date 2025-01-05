@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/drabhikray/static/css/main.e151806f.css",
-    "main.js": "/drabhikray/static/js/main.93a1a0f6.js",
+    "main.js": "/drabhikray/static/js/main.aa796beb.js",
     "index.html": "/drabhikray/index.html",
     "main.e151806f.css.map": "/drabhikray/static/css/main.e151806f.css.map",
-    "main.93a1a0f6.js.map": "/drabhikray/static/js/main.93a1a0f6.js.map"
+    "main.aa796beb.js.map": "/drabhikray/static/js/main.aa796beb.js.map"
   },
   "entrypoints": [
     "static/css/main.e151806f.css",
-    "static/js/main.93a1a0f6.js"
+    "static/js/main.aa796beb.js"
   ]
 }
