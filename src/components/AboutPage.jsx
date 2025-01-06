@@ -34,7 +34,7 @@ export default function AboutPage() {
           className="d-flex justify-content-center"
           style={{ fontSize: "36px", fontWeight: "700", color: "#4DA1A9" }}
         >
-          Few words from the Doctor
+          Few words about the Doctor
         </p>
         <p style={{ fontSize: "24px" }}>
           Dr. Abhik Ray is a highly qualified orthopaedic surgeon practicing in

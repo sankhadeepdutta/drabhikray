@@ -74,12 +74,7 @@ export default function FrontPage() {
                 </Card.Title>
                 <Card.Text>
                   <FontAwesomeIcon icon={faPhone} />
-                  <a
-                    style={{ textDecoration: "none", color: "black" }}
-                    href="+91-8927815745"
-                  >
-                    &nbsp; +91-8927815745
-                  </a>
+                  &nbsp; +91-8927815745
                   <hr />
                   We provide 24/7 emergency support.
                 </Card.Text>
@@ -146,14 +141,14 @@ export default function FrontPage() {
             <Contact
               src="roshan.jpg"
               name="Roshan Mondal"
-              contact="+91-8927815745"
+              contact="8927815745"
             />
           </Col>
           <Col className="d-flex justify-content-center">
             <Contact
               src="somnath.jpeg"
               name="Somnath Ghosh"
-              contact="+91-8927815745"
+              contact="8927815745"
             />
           </Col>
         </Row>
