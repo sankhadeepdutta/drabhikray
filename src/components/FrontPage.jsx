@@ -74,7 +74,12 @@ export default function FrontPage() {
                 </Card.Title>
                 <Card.Text>
                   <FontAwesomeIcon icon={faPhone} />
-                  &nbsp; +91-8927815745
+                  <a
+                    style={{ textDecoration: "none", color: "black" }}
+                    href="+91-8927815745"
+                  >
+                    &nbsp; +91-8927815745
+                  </a>
                   <hr />
                   We provide 24/7 emergency support.
                 </Card.Text>
@@ -132,7 +137,7 @@ export default function FrontPage() {
           className="d-flex justify-content-center"
           style={{ fontSize: "36px", fontWeight: "700", color: "#4DA1A9" }}
         >
-          Certified Associates
+          Book your appointment
         </p>
       </Container>
       <Container>
