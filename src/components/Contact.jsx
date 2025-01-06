@@ -1,3 +1,4 @@
+import { MessageCircle } from "lucide-react";
 import { Card } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
@@ -7,7 +8,7 @@ export default function Contact(props) {
       <Card.Img variant="top" src={props.src} style={{ borderRadius: "50%" }} />
       <Card.Body className="d-flex flex-column align-items-center">
         <Card.Title>{props.name}</Card.Title>
-        <Button variant="primary" href={`https://wa.me/${props.contact}`}>
+        <Button variant="primary" onClick={() => alert(props.contact)}>
           Contact
         </Button>
       </Card.Body>
